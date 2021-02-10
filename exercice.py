@@ -2,27 +2,27 @@
 # -*- coding: utf-8 -*-
 
 
-def is_even_len(string: str) -> bool:
+def is_even_len(string: str) -> bool: test 1
     pass
 
 
-def remove_third_char(string: str) -> str:
+def remove_third_char(string: str) -> str: test 2
     pass
 
 
-def replace_char(string: str, old_char: str, new_char: str) -> str:
+def replace_char(string: str, old_char: str, new_char: str) -> str: test 3
     pass
 
 
-def get_number_of_char(string: str, char: str) -> int:
+def get_number_of_char(string: str, char: str) -> int: test 4
     pass
 
 
-def get_number_of_words(sentence: str, word: str) -> int:
+def get_number_of_words(sentence: str, word: str) -> int: test 5
     pass
 
 
-def main() -> None:
+def main() -> None: test 6
     chaine = "Bonjour!"
     if is_even_len(chaine):
         print(f"Le nombre de caractère dans la chaine {chaine} est pair")
